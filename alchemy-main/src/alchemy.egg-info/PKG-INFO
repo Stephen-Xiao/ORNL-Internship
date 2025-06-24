@@ -1,0 +1,48 @@
+Metadata-Version: 2.4
+Name: alchemy
+Version: 0.1.0
+Summary: ALchemy /ˈæl.kə.mi/ (noun): a process so effective that it seems like magic.
+Author-email: "Sumner B. Harris" <harrissb@ornl.gov>
+License: MIT License
+        
+        Copyright (c) 2025 sumner-harris
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch>=1.13
+Requires-Dist: gpytorch>=1.8
+Requires-Dist: botorch>=0.7
+Requires-Dist: scikit-learn>=1.0
+Requires-Dist: neurobayes>=0.0.1
+Requires-Dist: pandas>=1.1
+Requires-Dist: matplotlib>=3.0
+Dynamic: license-file
+
+# ALchemy
+ALchemy /ˈæl.kə.mi/ (noun): a process so effective that it seems like magic.
+
+ALchemy is a package for active learning built with experimentalists in physics, chemistry, and materials science in mind.
+The goal is to provide one interface for calculating various surrogate models (from various packages) and acquisition functions with as little 
+code as possible to lower the barrier to adopt modern AI-driven experimentation practices.
