@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+color_picker_optimization/__init__.py
+color_picker_optimization/metrics.py
+color_picker_optimization/plate_image_simulation.py
+color_picker_optimization/utils.py
+color_picker_optimization.egg-info/PKG-INFO
+color_picker_optimization.egg-info/SOURCES.txt
+color_picker_optimization.egg-info/dependency_links.txt
+color_picker_optimization.egg-info/requires.txt
+color_picker_optimization.egg-info/top_level.txt
