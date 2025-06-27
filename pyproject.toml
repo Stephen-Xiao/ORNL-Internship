@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "color-picker-optimization"
+version = "0.1.0"
+description = "Optimize color picking by mixing CMYK inks."
+readme = "README.md"
+requires-python = ">=3.7"
+
+authors = [
+  { name="Sumner B. Harris", email="harrissb@ornl.gov"},
+  { name="Stephen Xiao"}
+]
+
+license = { file="LICENSE" }
+
+# Your runtime dependencies
+dependencies = [
+  # e.g. "numpy>=1.18",
+]
+
+# Optional groups, e.g. for testing dependencies
+optional-dependencies = { test = ["pytest>=6.0"] }
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+#[project.urls]
+#"Homepage"    = "https://gitlab.com/yourusername/color-picker-optimization"
+#"Repository"  = "https://gitlab.com/yourusername/color-picker-optimization"
+#"Bug Tracker" = "https://gitlab.com/yourusername/color-picker-optimization/-/issues"
+
+# Tell setuptools how to find your packages
+[tool.setuptools.packages.find]
+where    = ["."]
+include  = ["color_picker_optimization*"]
+exclude  = ["tests*"]
